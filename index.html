@@ -1,139 +1,127 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-  <title>Mi Primera Página Web</title>
-  <title>Mi Portafolio Personal</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>El Hábito.co | Home</title>
   <style>
-    /* Reset de estilos para el body */
+    * {
+      box-sizing: border-box;
+    }
+
     body {
-    margin: 0;
-    padding: 0;
+      
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
     }
 
-    /* Estilos generales para los encabezados */
-    h1, h2 {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-    font-weight: bold;
+    header {
+      background-color: #062827;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
     }
 
-    /* Estilos para la sección de inicio */
-    #inicio {
-    padding: 50px;
-    background-color: #FFD1DC;
+    nav {
+      background-color:#094745;
+      padding: 10px;
     }
 
-    #inicio img {
-    width: 150px; /* Cambiar el ancho de la imagen según tu preferencia */
-    height: 150px; /* Cambiar la altura de la imagen según tu preferencia */
-    border-radius: 50%; /* Opcional: agregar bordes redondeados a la imagen */
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      text-align: center;
     }
 
-
-    /* Estilos para la sección de habilidades */
-    #habilidades {
-    padding: 50px;
-    background-color: #BCE5F5;
+    nav ul li {
+      display: inline-block;
+      margin: 0 10px;
     }
 
-    /* Estilos para la lista de habilidades */
-    #habilidades ul {
-    list-style-type: none;
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
     }
 
-    /* Estilos para la sección de proyectos */
-    #proyectos {
-    padding: 50px;
-    background-color: #FFFFC2;
+    main {
+      margin: 20px;
     }
 
-    /* Estilos para la lista de proyectos */
-    #proyectos ul {
-    list-style-type: none;
+    section {
+      margin-bottom: 20px;
     }
 
-    /* Estilos para la sección de contacto */
-    #contacto {
-    padding: 50px;
-    background-color: #DCE0EA;
+    h2 {
+      color: #333;
     }
 
-    /* Estilos para la lista de contacto */
-    #contacto ul {
-    list-style-type: none;
+    p {
+      color: #666;
+      line-height: 1.5;
     }
 
-    /* Estilos generales para los párrafos y listas */
-    p, ul {
-    font-family: Arial, sans-serif;
-    font-size: 16px;
-    color: #333;
+    footer {
+      background-color: #062827;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .pie {
+      color: #fff;
+    }
+
+    .products{
+      color: #666;
+    }
+    img{
+      width: 120px; /* Ajusta el ancho de la imagen según tus necesidades */
+      border-radius: 50%; /* Aplica bordes redondeados */
+      float: inline-start; /* Ubica la imagen a la izquierda */
+      margin-right: 0px; /* Agrega un margen derecho para separar la imagen del texto */
     }
   </style>
-  <link rel="stylesheet" href="estilos.css">
 </head>
+
 <body>
   <header>
-    <h1>Bienvenido a mi Página Web</h1>
-  </header>
-  <nav>
-  <!-- Sección de inicio -->
-  <section id="inicio">
-    <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="Imagen de cabecera">
-    <h1>Nombre Apellido</h1>
-    <p>Breve descripción sobre ti y tus intereses profesionales.</p>
-  </section>
+    <img src="C:\Users\Juan Esteban Cañon\Downloads\elhabitoimg.PNG" alt="Logo de la tienda">
+    <h1>EL HÁBITO</h1>
+    </header>
 
-  <!-- Sección de habilidades -->
-  <section id="habilidades">
-    <h2>Habilidades</h2>
+  <nav>
     <ul>
-      <li><a href="#inicio">Inicio</a></li>
-      <li><a href="#acerca-de">Acerca de</a></li>
-      <li><a href="#contacto">Contacto</a></li>
-      <li>HTML</li>
-      <li>CSS</li>
-      <li>JavaScript</li>
-      <li>Otras habilidades relevantes</li>
+      <li><a href="#">Inicio</a></li>
+      <li><a href="#">Acerca de</a></li>
+      <li><a href="#">Productos</a></li>
+      <li><a href="#">Contacto</a></li>
     </ul>
   </nav>
-  <section id="inicio">
-    <h2>¡Hola Mundo!</h2>
-    <p>Bienvenido a mi primera página web. Aquí encontrarás información interesante sobre diversos temas.</p>
-  </section>
-  <section id="acerca-de">
-    <h2>Acerca de Mí</h2>
-    <p>Soy un apasionado del desarrollo web y me encanta aprender nuevas tecnologías. ¡Espero que disfrutes de mi página web!</p>
 
-  <!-- Sección de proyectos -->
-  <section id="proyectos">
-    <h2>Proyectos</h2>
-    <ul>
-      <li>Nombre del Proyecto 1</li>
-      <li>Nombre del Proyecto 2</li>
-      <li>Nombre del Proyecto 3</li>
-      <!-- Puedes agregar más proyectos aquí -->
-    </ul>
-  </section>
+  <main>
+    
+      <h2>EL Hábito</h2>
+      <p>En El Hábito, nos enorgullece presentar una selección exclusiva de productos de cuidado personal
+        masculino elaborados con ingredientes naturales de la más alta calidad. Nos dedicamos a ofrecer a los hombres
+        una experiencia única de cuidado personal que combina la sofisticación, la eficacia y la autenticidad.</p>
+    
 
-  <!-- Sección de contacto -->
-  <section id="contacto">
-    <h2>Contacto</h2>
-    <p>Ponte en contacto conmigo a través de mi correo electrónico o redes sociales. ¡Estoy ansioso por escucharte!</p>
-    <p>Puedes contactarme a través de los siguientes medios:</p>
-    <ul>
-      <li>Email: tu@email.com</li>
-      <li>Teléfono: +123456789</li>
-      <li>Redes sociales: enlace a tus perfiles en redes sociales</li>
-    </ul>
-  </section>
+    
+      <h2>Productos</h2>
+      <ul class="products">
+        <li>Producto 1</li>
+        <li>Producto 2</li>
+        <li>Producto 3</li>
+      </ul>
+    
+  </main>
+
   <footer>
-    <p>Derechos de autor &copy; 2023. Todos los derechos reservados.</p>
+    <p class="pie">&copy; El Hábito. Todos los derechos reservados.</p>
   </footer>
-
-  <!-- Puedes agregar más secciones según tus necesidades -->
-
 </body>
-</html>
 
+</html>
